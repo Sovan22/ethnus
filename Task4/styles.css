@@ -1,0 +1,51 @@
+/* Reset some default styles for the body and anchor tags */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%; /* Make the side nav cover the entire height of the screen */
+    width: 80px; /* Set the initial width of the side nav */
+    position: fixed; /* Keep it fixed on the screen */
+    top: 0;
+    left: 0;
+    background-color: #333; /* Set a default background color for the side nav */
+    padding-top: 20px; /* Add some top padding */
+    transition: width 0.3s; /* Add a smooth transition for width change */
+}
+
+.nav-btn {
+    display: block; /* Make the buttons full width */
+    padding: 10px; /* Add padding to the buttons */
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Set the default text color to white */
+    transition: padding 0.3s; /* Add a smooth transition for padding change */
+    overflow: hidden; /* Hide overflowing content */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Define different background colors for each button */
+.btn1:hover {
+    background-color: #FF5733;
+    width: 150px; /* Expand width on hover */
+    padding-left: 20px; /* Expand padding on hover */
+}
+
+.btn2:hover {
+    background-color: #33FF57;
+    width: 150px; /* Expand width on hover */
+    padding-left: 20px; /* Expand padding on hover */
+}
+
+.btn3:hover {
+    background-color: #5733FF;
+    width: 150px; /* Expand width on hover */
+    padding-left: 20px; /* Expand padding on hover */
+}
+
+.btn4:hover {
+    background-color: #FF33F4;
+    width: 150px; /* Expand width on hover */
+    padding-left: 20px; /* Expand padding on hover */
+}
